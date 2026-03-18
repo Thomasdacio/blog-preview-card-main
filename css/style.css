@@ -1,0 +1,78 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Figtree', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--yellow);
+    color: var(--gray-950);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--white);
+    border-radius: 1.7rem;
+    width: 32rem;
+    padding: 1.8rem;
+    border: .1rem solid var(--gray-950);
+    box-shadow: .7rem .6rem;
+}
+
+.card img {
+    max-width: 28rem;
+    border-radius: 0.8rem;
+}
+
+.card .category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    margin: 1.8rem 0 1.2rem ;
+    padding: 0.5rem;
+    font-weight: 800;
+    border-radius: .3rem;
+    background-color: var(--yellow);
+}
+
+.card .date {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 0rem 0 .5rem 0;
+}
+
+.card .title {
+    font-weight: 800;
+    padding: 1rem 0;
+}
+
+.card .description {
+    font-size: 1.35rem;
+    padding: .5rem 0;
+    line-height: 2rem;
+    color: var(--gray-500);
+}
+
+.card .creator {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0 0;
+}
+
+.card .creator img {
+    width: 2.7rem;
+    height: 2.7rem;
+}
+
+.card .creator .creator-name {
+    padding-left: 1rem;
+    font-weight: 800;
+    
+}
+
